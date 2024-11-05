@@ -1,0 +1,12 @@
+
+.botones-container {
+    text-align: center;
+}
+
+.botones-container form {
+    display: inline-block;
+}
+
+.botones-container form input[type="submit"] {
+    margin: 0 10px; 
+}
