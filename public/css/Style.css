@@ -1,0 +1,53 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(
+      90deg,
+      #b66912 0%,
+      #b66912 70%
+  );
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formulario {
+  background-color: #16695d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(67, 155, 23, 0.1);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; /* Agregado */
+  top: -260px; /* Ajuste para subir más el formulario */
+}
+
+label {
+  font-family: cursive;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #010115;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #010115;
+}

@@ -7,8 +7,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="registro.css">
-  <link rel="stylesheet" href="src/css/Style.css">
+  <link rel="stylesheet" href="<?= base_url();?>public/css/registro.css">
+  <link rel="stylesheet" href="<?= base_url();?>public/css/Style.css">
+  
+  
   
   <title>Registro</title>
   
@@ -19,12 +21,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     
 
   <div class="container">
-    <img src="imagenes/registro.jpg.png" alt="">
+  <img src="<?= base_url('imagenes/registro.jpg.png'); ?>" alt="" height="350">
+
+    
     
   <div class="formulario">
              <h1>Registrarse</h1>
-    <label for="nombre">Usuario:</label>
-    <input type="text"  id="nombre" autofocus placeholder="Usuario"><br></br>
+    
     <label for="correo">Correo electronico</label>
     <input type="text"  id="correo" autofocus placeholder=" correo"><br></br>
     <label for="password">Contraseña</label>

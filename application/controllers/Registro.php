@@ -8,7 +8,7 @@ parent::__construct();
     #cargar helper url
     $this->load->helper('url');
     
-    $this->load->model("crud2");
+    
 
 }
 

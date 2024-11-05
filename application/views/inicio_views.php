@@ -26,11 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <h1>Renta de Casas</h1> <br></br>
     <h1>Bienvenido</h1> 
     <div class="botones-container">    
-    <form action="Registro.php" method="POST">
-            <input type="submit" name="enviar" value="Crear Cuenta ">
-            
-               
-    </form>
+    <a  class="btn btn-primary"href= "<?= site_url('Registro'); ?>">Registrarse</a>
     
    <a  class="btn btn-primary"href= "<?= site_url('IniciarSesion'); ?>">Iniciar Sesion</a>
     

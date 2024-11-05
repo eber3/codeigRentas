@@ -1,0 +1,16 @@
+.container {
+    max-width: 1200px;
+   margin: 0 auto;
+}
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(202, 195, 195, 0.7)),
+    url(imagenes/registro.jpg.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
