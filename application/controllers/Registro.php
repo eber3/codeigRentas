@@ -8,6 +8,7 @@ parent::__construct();
     #cargar helper url
     $this->load->helper('url');
     
+    $this->load-> model("crud");
     
 
 }
@@ -34,7 +35,7 @@ parent::__construct();
         
        
         
-        $id = $this->crud2->createRow($data);
+        $id = $this->crud->createRow($data);
        
 
         $dataToSend = array();

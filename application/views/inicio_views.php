@@ -18,9 +18,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
     <header class="header" >
     <div class="container">
+        <br>
+        <img src="<?= base_url('public/imagenes/imagen.png'); ?>" alt="" height="350"  >
         <br></br>
-        <img src="<?= base_url('imagenes/imagen.png'); ?>" alt="" height="350">
-
+        
     <center>
         
     <h1>Renta de Casas</h1> <br></br>

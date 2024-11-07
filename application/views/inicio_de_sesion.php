@@ -15,27 +15,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <br></br>
             
-            <img src="<?= base_url('imagenes/imagen2.png'); ?>" alt="" height="325">
+            <img src="<?= base_url('public/imagenes/imagen2.png'); ?>"  class="imagen-header">
+
 
   <center>
     
   <h1>Iniciar Sesion</h1>
    <div class="inicio">
     <label for="correo">Correo:</label>
-    <input type="text"  id="correo" autofocus placeholder="Ingresa tu Correo">
+    <input class= "etiqueta" type="text"  id="correo" autofocus placeholder="Ingresa tu Correo">
 <br></br>
     <label for="password">Contraseña:</label>
     <input type="password"  id="password" autofocus placeholder="Ingresa tu Contraseña"><br></br>
-    ¿No tienes una cuenta aun? <a href="<? site_url('Registro'); ?>">Registrarse</a>
+    ¿No tienes una cuenta aun? <a href="<?= site_url('Registro'); ?>">Registrarse</a>
     <br></br>
-    <button type="button" name="boton" onclick="acceder()">Iniciar Sesion</button>
- 
+    <button type="button" name="boton"  onclick="acceder()">Iniciar Sesion</button>
+    </div>
 
-   </div>
+   
     
-   </form>
+   
       </center> 
-      </div>    
+      
       </header>
 </body>
 <Script src="<?= base_url();?>public/jquery/jquery-3.7.1.min.js"></Script>

@@ -1,6 +1,7 @@
 .container {
    max-width: 1200px;
    margin: 0 auto;
+  
 }
 .header {
     background-image: linear-gradient(
@@ -13,5 +14,8 @@
     min-height: 70vh;
     display: flex;
     align-items: center;
+        
+    
+    
 }
 

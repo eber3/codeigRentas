@@ -10,7 +10,7 @@ function acceder() {
         var datosAccs = {
 
             correo:correo,
-             pwd: password,
+             password: password,
            };
     }
     enviar_acceso(datosAccs);

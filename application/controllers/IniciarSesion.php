@@ -7,6 +7,8 @@ class IniciarSesion extends CI_Controller {
         parent::__construct();
         
         $this->load->helper('url');
+
+        $this->load-> model("crud2");
         
     }
     
@@ -25,7 +27,7 @@ class IniciarSesion extends CI_Controller {
          "password" => $password
 
         );
-        $idUser = $this->crud->createRow($data);
+        $idUser = $this->crud2->createRow($data);
        
 
       //forma d hacer arreglos
