@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     
   <h1>Iniciar Sesion</h1>
    <div class="inicio">
-    <label for="correo">Correo:</label>
+    <label for="correo">Correo:</label><br>
     <input class= "etiqueta" type="text"  id="correo" autofocus placeholder="Ingresa tu Correo">
 <br></br>
     <label for="password">Contraseña:</label>
