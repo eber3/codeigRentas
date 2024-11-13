@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fdfdfd;
+    background-image: url('public/imagenes/casainicio.png');  
+    background-size: cover;  
+    background-position: center;  
     margin: 0;
     padding: 0;
 }
@@ -11,11 +13,11 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #fff;  
 }
 
 input[type="submit"] {
-    background-color: #f1ebd5;
+    background-color: rgba(241, 235, 213, 0.8);  
     color: #424242;
     border: none;
     padding: 10px 20px;
@@ -26,5 +28,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #a8b4c0;
+    background-color: rgba(168, 180, 192, 0.8); 
 }
+
+

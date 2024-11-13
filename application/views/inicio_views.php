@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" href="<?= base_url();?>public/css/styles.css">
     <link rel="stylesheet" href="<?= base_url();?>public/css/inicio.css">
     <link rel="stylesheet" href="<?= base_url();?>public/css/acomodo_botones.css">
-    <link rel="stylesheet" href="<?= base_url();?>public/bootstrap/css/bootstrap.css">
+    
     
     
     <title>Principal</title>
@@ -19,17 +19,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <header class="header" >
     <div class="container">
         <br>
-        <img src="<?= base_url('public/imagenes/imagen.png'); ?>" alt="" height="350"  >
+        <img src="<?= base_url('public/imagenes/casainicio.png'); ?>" alt="" height="350"  >
         <br></br>
         
     <center>
         
     <h1>Renta de Casas</h1> <br></br>
     <h1>Bienvenido</h1> 
-    <div class="botones-container">    
-    <a  class="btn btn-primary"href= "<?= site_url('Registro'); ?>">Registrarse</a>
+    <div class="botones">    
+    <a  href= "<?= site_url('Registro'); ?>">Registrarse</a>
     
-   <a  class="btn btn-primary"href= "<?= site_url('IniciarSesion'); ?>">Iniciar Sesion</a>
+   <a href= "<?= site_url('IniciarSesion'); ?>">Iniciar Sesion</a>
     
 </div>
 </div>
