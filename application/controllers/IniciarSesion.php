@@ -17,26 +17,27 @@ class IniciarSesion extends CI_Controller {
         $this->load->view("inicio_de_sesion"); 
     }
     public function saveData(){
-        
         $correo = $this->input->post("correo");
         $password = $this->input->post("password");
         
         
-        $data = array(
-         "correo" => $correo, 
-         "password" => $password
-
-        );
-        $idUser = $this->crud2->createRow($data);
-       
-
-      //forma d hacer arreglos
+        $usuario = $this->crud2->verificarUsuario($correo, $password);
+    
+        
         $dataToSend = array();
-
-        $dataToSend['status']="success";
-        $dataToSend['message']="inicio de sesion con exito";
-        $dataToSend['idUser']=$idUser;
-
+        
+        if ($usuario) {
+            
+            $dataToSend['status'] = "success";
+            $dataToSend['message'] = "Inicio de sesión con éxito";
+            $dataToSend['idUser'] = $usuario->id;  
+        } else {
+            
+            $dataToSend['status'] = "error";
+            $dataToSend['message'] = "Correo electrónico o contraseña incorrectos";
+        }
+    
         echo json_encode($dataToSend, JSON_NUMERIC_CHECK);
     }
+    
 }
