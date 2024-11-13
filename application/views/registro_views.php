@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="<?= base_url();?>public/css/registro.css">
   <link rel="stylesheet" href="<?= base_url();?>public/css/Style.css">
-  <link rel="stylesheet" href="<?= base_url();?>public/bootstrap/css/bootstrap.css">
+  
   
   
   
@@ -18,14 +18,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
   <center>
+
   <header class="header" >
-    
 
   <div class="container">
   <img src="<?= base_url('public/imagenes/registro.jpg.png'); ?>"  class="imagen-header">
-  
-
-    
     
   <div class="formulario">
              <h1>Registrarse</h1>
@@ -44,7 +41,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 </div>
 </header>
+
 </body>
-<Script src="<?= base_url();?>public/jquery/jquery-3.7.1.min.js"></Script>
+<script src="<?= base_url();?>public/jquery/jquery-3.7.1.min.js"></Script>
 <script src="<?= base_url();?>public/js/registrarse.js"></script>
 </html>

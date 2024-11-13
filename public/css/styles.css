@@ -7,7 +7,7 @@
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(241, 229, 229, 0.7)),
-    url(imagenes/imagen.png);
+    url(imagenes/casainicio.png);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,6 +16,4 @@
     align-items: center;
         
     
-    
 }
-
