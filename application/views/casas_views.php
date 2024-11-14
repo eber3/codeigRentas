@@ -6,8 +6,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Casas</title>
     <link rel="stylesheet" href="<?= base_url();?>public/css/menu.css">
+    <link rel="stylesheet" href="<?= base_url();?>public/css/s.css">
+
 
 </head>
 <body>
@@ -30,11 +32,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
      <ul class="nav_link">
     <li class="link"><a href="<?= site_url('Inicio'); ?>">Cerrar Sesion</a></li>
     
+    
  
      </ul>
   </div>
 
-
+  <div class="s">
+<a href="<?= site_url('Formulario'); ?>">Poner en Renta</a>
+    
+</div>
 
 
 

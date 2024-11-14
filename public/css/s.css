@@ -1,0 +1,9 @@
+.s {
+    position: relative; /* Necesario para mover el contenido con top y right */
+}
+
+.s a {
+    position: absolute; /* Posiciona el enlace de manera absoluta respecto a su contenedor */
+    top: -55px; /* Mueve el enlace hacia arriba (ajusta el valor según sea necesario) */
+    right: 80px; /* Mueve el enlace hacia la derecha (ajusta el valor según sea necesario) */
+}

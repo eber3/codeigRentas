@@ -7,12 +7,12 @@
   .menu-nav {
     background-color: rgb(163, 221, 220);
     height: 12vh;
-    margin-top: -20px; /* Subimos el menú un poco */
-    padding-left: 30px; /* Aumentamos el padding izquierdo */
-    padding-right: 30px; /* Aumentamos el padding derecho */
-    width: calc(100% + 60px); /* Aumentamos el ancho total considerando el padding */
-    margin-left: -30px; /* Compensamos el margen izquierdo */
-    padding-bottom: 10px; /* Ajustamos el padding inferior */
+    margin-top: -20px; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+    width: calc(100% + 60px); 
+    margin-left: -30px; 
+    padding-bottom: 10px; 
     
 }
   
@@ -94,8 +94,8 @@
     transform: translateX(100vw);
     transition: 300ms ease-in-out;
 
-    position: fixed; /* Esto asegura que el elemento esté posicionado en relación con la ventana del navegador */
-    z-index: 999; /* Esto coloca el elemento sobre todos los demás */
+    position: fixed; 
+    z-index: 999; 
    
   }
   
@@ -213,3 +213,4 @@ right: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
   }
+  

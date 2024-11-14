@@ -30,7 +30,7 @@ class IniciarSesion extends CI_Controller {
             
             $dataToSend['status'] = "success";
             $dataToSend['message'] = "Inicio de sesión con éxito";
-            $dataToSend['idUser'] = $usuario->id;  
+        
         } else {
             
             $dataToSend['status'] = "error";

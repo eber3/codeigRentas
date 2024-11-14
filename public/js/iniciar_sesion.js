@@ -4,6 +4,7 @@ function acceder() {
 
   if (correo == "" || password == "") {
       alert("Datos vacíos, ingrese datos por favor");
+      return;
   } else {
       var datosAccs = {
           correo: correo,
@@ -25,7 +26,7 @@ function enviar_acceso(datosAccs) {
       success: function(data, status, xhr) {
           console.log(data);
           if (data.status == "success") {
-            window.location.href = "http://localhost/codeigRentas/index.php/";
+          location.href ="Casas";
               
           } else {
             
