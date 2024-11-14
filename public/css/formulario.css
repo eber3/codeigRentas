@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+.formulario {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+table label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+table input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+table input[type="text"]:focus {
+    border-color: #0066cc;
+    outline: none;
+}
+#imageInput {
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+#preview {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#preview img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+}
+button {
+    background-color: rgb(43, 159, 157);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+button:hover {
+    background-color: #80d793;
+}
+
+button:focus {
+    outline: none;
+}
+br {
+    margin: 10px 0;
+}
