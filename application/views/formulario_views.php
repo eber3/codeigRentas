@@ -79,18 +79,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             reader.onload = function (event) {
                 const imagePreview = document.createElement('div');
                 imagePreview.classList.add('image-preview');
-                imagePreview.innerHTML = `<img src="${event.target.result}" alt="Vista previa">`;
+                
+            imagePreview.innerHTML = `
+            <img src="${event.target.result}" alt="Vista previa" style="max-width: 200px; max-height: 200px;">
+            <button type="button" class="delete-btn">Eliminar</button>
+                `;
+                
+                // Añadir la vista previa de la imagen al contenedor
                 previewContainer.appendChild(imagePreview);
+
+                // Añadir evento para eliminar la imagen al hacer click en el botón "Eliminar"
+                const deleteButton = imagePreview.querySelector('.delete-btn');
+                deleteButton.addEventListener('click', function() {
+                    imagePreview.remove();  // Eliminar el contenedor de la imagen
+                });
             };
             reader.readAsDataURL(file);
         }
     });
-
+    
     // Función de ejemplo para el botón "Subir"
     function subir() {
         alert('Imágenes y datos subidos correctamente.');
     }
 </script>
+
 
 </body>
 <script src="<?= base_url();?>public/jquery/jquery-3.7.1.min.js"></script>

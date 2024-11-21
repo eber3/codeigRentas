@@ -27,13 +27,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  </div>
   </nav>
  
- 
   <div class="menu_desplegable">
      <ul class="nav_link">
     <li class="link"><a href="<?= site_url('Inicio'); ?>">Cerrar Sesion</a></li>
     
-    
- 
      </ul>
   </div>
 
@@ -41,8 +38,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <a href="<?= site_url('Formulario'); ?>">Poner en Renta</a>
     
 </div>
-
-
 
 </body>
 <Script src="<?= base_url();?>public/jquery/jquery-3.7.1.min.js"></Script>
