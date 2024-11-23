@@ -9,7 +9,7 @@ class Crud2 extends CI_Model{
       }
       
       public function createRow($data){
-        $sqlQ= "INSERT INTO usuarioo (correo, password) VALUES ('".$data["correo"]."' , '".$data["password"]."')";
+        $sqlQ= "INSERT INTO usuarioo3 (correo, password) VALUES ('".$data["correo"]."' , '".$data["password"]."')";
 
         $query= $this->db->query($sqlQ);
 
@@ -20,7 +20,7 @@ class Crud2 extends CI_Model{
         
         $this->db->where('correo', $correo);
         $this->db->where('password', $password);
-        $query = $this->db->get('usuarioo');
+        $query = $this->db->get('usuarioo3');
         
         
         if ($query->num_rows() > 0) {
@@ -33,7 +33,7 @@ class Crud2 extends CI_Model{
     
 
       public function createRow2($data){
-        $sqlQ = $this->db->insert("usuarioo", $data);
+        $sqlQ = $this->db->insert("usuarioo3", $data);
         return $this->db->insert_id();
 
       }

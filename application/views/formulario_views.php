@@ -67,10 +67,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 <script>
-    // Función para previsualizar las imágenes seleccionadas
+
     document.getElementById('imageInput').addEventListener('change', function (e) {
         const previewContainer = document.getElementById('preview');
-        previewContainer.innerHTML = '';  // Limpiar la vista previa
+        previewContainer.innerHTML = '';  
 
         const files = e.target.files;
         for (let i = 0; i < files.length; i++) {
@@ -86,7 +86,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
     });
 
-    // Función de ejemplo para el botón "Subir"
+    
     function subir() {
         alert('Imágenes y datos subidos correctamente.');
     }
