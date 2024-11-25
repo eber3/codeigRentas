@@ -41,7 +41,7 @@
   .menu {
     height: 40px;
     width: 50px;
-    border: 2px solid rgb(21, 6, 48);
+    border: 2px solid rgb(11, 1, 31);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -127,9 +127,10 @@
   }
   
   .link:hover {
-    background-color:rgb(13, 16, 16);
+    text-align: center;
+    background-color:rgb(255, 255, 255);
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.311);
+    color: rgba(191, 225, 245, 0.311);
   
   }
   
@@ -164,16 +165,6 @@
   position: fixed; /* Esto asegura que el elemento esté posicionado en relación con la ventana del navegador */
   z-index: 999; /* Esto coloca el elemento sobre todos los demás */
  
-
-
-
-
-
-
-
-
-
-
   
 }
 .menu2 {

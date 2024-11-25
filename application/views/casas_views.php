@@ -13,9 +13,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 </head>
 <body>
+    <header>
+        <img src="<?= base_url();?>public/imagenes/casita.png" alt="Logo" class="logo">
+    </header>
+    
+
 <nav class="menu-nav">
     <div class="nav">
-   <span class="logo"><img src="imagenes/logo2.jpg" height="50"></span>
+  
    <h1 class="titulo"></h1>
  
      <div class="menu">
@@ -30,11 +35,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   
   <div class="menu_desplegable">
-     <ul class="nav_link">
-    <li class="link"><a href="<?= site_url('Inicio'); ?>">Cerrar Sesion</a></li>
-    
-     </ul>
-  </div>
+     <ul class="nav_link"> 
+    <li class="link"><a href="<?= site_url('Inicio'); ?>" class="fixed-link">Cerrar Sesion</a></li> </ul>
+</div>
 
   <div class="s">
 <a href="<?= site_url('Formulario_imag'); ?>">Poner en Renta</a>
