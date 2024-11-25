@@ -10,6 +10,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" href="<?= base_url();?>public/css/inicio.css">
     <link rel="stylesheet" href="<?= base_url();?>public/css/acomodo_botones.css">
     
+
+    
     
     
     <title>Principal</title>
