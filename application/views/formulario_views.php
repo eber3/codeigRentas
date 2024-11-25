@@ -63,7 +63,7 @@
         <button type="submit" name="boton"  onclick="subir()">Subir</button>
     </form>
 </div>
-<h1>hola</h1>
+
 </body>
 <script src="<?= base_url();?>public/jquery/jquery-3.7.1.min.js"></script>
 <script src="<?= base_url();?>public/js/formulario.js"></script>
