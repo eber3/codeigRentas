@@ -1,5 +1,5 @@
 
- const imageInput = document.getElementById('imageInput');
+ const imageInput = document.getElementById('imagen');
  const previewContainer = document.getElementById('preview');
 
  

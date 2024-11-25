@@ -22,6 +22,10 @@ class Crud extends CI_Model{
 
       }
   
+
+
+
+      
 public function readData(){
   $query = $this->db->get("usuarioo3");
 

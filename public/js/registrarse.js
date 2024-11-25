@@ -38,7 +38,7 @@ function enviarFormulario() {
   success:function(data, status, xhr){
   console.log(data);
   if(data.status == "success"){
-    location.href= "imag.html"
+    location.href ="Casas";
   }else{
     alert(data.message);
   }
