@@ -55,12 +55,13 @@
             </tr>
         
 
-        <h1>Insertar imagen</h1>
-        <input type="file" id="imagen" name="imagen" multiple accept="image/*" required>
-        <div id="preview"></div>
+        
 
         
         <button type="submit" name="boton"  onclick="subir()">Subir</button>
+        <h1>Insertar imagen</h1>
+        <input type="file" id="imagen" name="imagen" multiple accept="image/*" required>
+        <div id="preview"></div>
     </form>
 </div>
 <h1>hola</h1>
