@@ -11,11 +11,16 @@
     <link rel="stylesheet" href="<?= base_url();?>public/css/menu.css">
     <link rel="stylesheet" href="<?= base_url();?>public/css/ima.css">
     <link rel="stylesheet" href="<?= base_url();?>public/css/formulario.css">
+    <link rel="stylesheet" href="<?= base_url();?>public/css/s.css">
 </head>
 <body>
+<header>
+        <img src="<?= base_url();?>public/imagenes/casita.png" alt="Logo" class="logo">
+    </header>
+    
 <nav class="menu-nav">
     <div class="nav">
-        <span class="logo"><img src="imagenes/logo2.jpg" height="50"></span>
+
         <h1 class="titulo"></h1>
         <div class="menu">
             <span class="bar"></span>
@@ -26,11 +31,9 @@
 </nav>
 
 <div class="menu_desplegable">
-    <ul class="nav_link">
-        <li class="link"><a href="<?= site_url('Inicio'); ?>">Cerrar Sesion</a></li>
-    </ul>
+     <ul class="nav_link"> 
+    <li class="link"><a href="<?= site_url('Inicio'); ?>" class="fixed-link">Cerrar Sesion</a></li> </ul>
 </div>
-
 
 <center><h1>Llenar el formulario de acuerdo con los datos de tu casa</h1></center><br>
 
