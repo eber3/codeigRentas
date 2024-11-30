@@ -54,10 +54,10 @@
                 <td><input type="text" name="caracteristicas" id="caracteristicas" placeholder="Ingresa las características principales (datos adicionales)" required></td>
             </tr>
         
-
-        <h1>Insertar imagen</h1>
-        <input type="file" id="imagen" name="imagen" multiple accept="image/*" required>
-        <div id="preview"></div>
+            
+            <h1>Insertar imagen</h1>
+<input type="file" id="imagen" name="imagen" multiple accept="image/*" required>
+<div id="preview"></div>
 
         
         <button type="submit" name="boton"  onclick="subir()">Subir</button>
@@ -68,8 +68,7 @@
 <script src="<?= base_url();?>public/jquery/jquery-3.7.1.min.js"></script>
 <script src="<?= base_url();?>public/js/formulario.js"></script>
 <script src="<?= base_url();?>public/js/menu.js"></script>
-<script src="<?= base_url();?>public/js/imagenes.js"></script>
-<script src="<?= base_url();?>public/js/visualizarimagenes.js"></script>
+<script src="<?= base_url();?>public/js/borrarimagen.js"></script>
 <script src="<?= base_url();?>public/js/subir.js"></script>
 
 </html>
