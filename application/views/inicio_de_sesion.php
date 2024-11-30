@@ -15,7 +15,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <br></br>
             
-            <img src="<?= base_url('public/imagenes/imagen2.png'); ?>"  class="imagen-header">
 
 
   <center>

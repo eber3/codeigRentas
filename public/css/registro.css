@@ -3,23 +3,6 @@
     margin: 0 auto;
 }
 
-.header {
-    background-image: linear-gradient(
-            rgba(30, 102, 227, 0.7),
-            rgba(202, 195, 195, 0.7)
-        ), url(imagenes/registro.jpg.png);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    filter: brightness(0.7); 
-    text-align: center;
-    padding: 20px; 
-}
-
 .texto-header {
     color: white;
     font-family: Arial, sans-serif;

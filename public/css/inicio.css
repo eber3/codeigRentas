@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-header { position: relative; top: -0px; /* Mueve el contenido más hacia arriba */ 
+header { position: relative; top: -60px; /* Mueve el contenido más hacia arriba */ 
     text-align: center; /* Centra el texto */ }
 
 .center {

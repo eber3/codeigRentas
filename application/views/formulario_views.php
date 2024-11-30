@@ -60,7 +60,10 @@
 <div id="preview"></div>
 
         
+
+        
         <button type="submit" name="boton"  onclick="subir()">Subir</button>
+     
     </form>
 </div>
 
