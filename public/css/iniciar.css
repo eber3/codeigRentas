@@ -39,17 +39,17 @@ body {
 }
 
 .inicio {
-
-        text-align: center;
-        background-color: #ECF0F1;
-        border: 2px solid transparent;
-        border-radius: 10px;
-        font-size: 16px;
-        font-weight: 200;
-        padding: 10px 0;
-        width: 250px;
-        transition: border .5s;     
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 300px;  
+    transition: border .5s;
 }
+
 
      
 .formulario { background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
@@ -59,3 +59,32 @@ body {
      margin-top: 20px; z-index: 2; /* Asegúrate de que el formulario esté por encima de la imagen */ 
     position: relative;
 }
+
+
+/* Estilos generales para los inputs */
+.etiqueta {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    font-size: 16px;
+    background-color: #f9f9f9; 
+    box-sizing: border-box; 
+    transition: all 0.3s ease; 
+  }
+
+  /* Estilo cuando el input está enfocado */
+  .etiqueta:focus {
+    border-color: #4CAF50; /* Cambia el color del borde a verde cuando está enfocado */
+    background-color: #e8f5e9; /* Cambia el fondo a un verde claro */
+    outline: none; /* Elimina el borde de enfoque predeterminado */
+  }
+
+  /* Estilos para los labels */
+  label {
+    font-size: 14px; /* Tamaño de fuente más pequeño para las etiquetas */
+    color: #333; /* Color oscuro para el texto */
+    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
+    display: block; /* Hace que la etiqueta ocupe toda la línea */
+  }

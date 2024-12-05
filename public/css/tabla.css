@@ -1,0 +1,88 @@
+/* General para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado de la página */
+header {
+    background-color: #343a40;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+/* Estilo para la tabla */
+.table-responsive {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Estilo para la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #dee2e6;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Encabezados de la tabla */
+.table th {
+    background-color: #343a40;
+    color: white;
+    font-size: 16px;
+}
+
+/* Filas de la tabla */
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Imagen en la tabla */
+.table td img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Botón de eliminar */
+.table .btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table .btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Mejoras en la visualización de la tabla */
+.table td {
+    font-size: 14px;
+    color: #495057;
+}
+
+.table td a {
+    text-decoration: none;
+    color: white;
+}
+

@@ -8,10 +8,10 @@ class Casas extends CI_Controller{
             #cargar helper url
             $this->load->helper('url');
             
-            
-        
-        }
+            $this->load->model("crud3");
+
     
+}
     public function index(){
         $this->load->view("casas_views");
 

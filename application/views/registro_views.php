@@ -28,9 +28,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
              <h1>Registrarse</h1>
     
     <label for="correo">Correo electronico</label>
-    <input type="text"  id="correo" autofocus placeholder="Ingresa tu Correo"><br></br>
+    <input type="text"  id="correo" autofocus placeholder="Ingresa un Correo"><br></br>
     <label for="password">Contraseña</label>
-    <input type="password"  id="password" autofocus placeholder="Ingresa tu Contraseña">
+    <input type="password"  id="password" autofocus placeholder="Ingresa una Contraseña">
     <br></br>
    
     <button type="submit" onclick="enviarFormulario()">Registrarse</button><br></br>

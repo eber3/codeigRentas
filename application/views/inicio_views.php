@@ -9,7 +9,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" href="<?= base_url();?>public/css/styles.css">
     <link rel="stylesheet" href="<?= base_url();?>public/css/inicio.css">
     <link rel="stylesheet" href="<?= base_url();?>public/css/acomodo_botones.css">
-    
+    <link rel="stylesheet" href="<?= base_url();?>public/bootstrap/css/bootstrap.css">
+
 
     
     
@@ -29,9 +30,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <h1>Renta de Casas</h1> <br></br>
     <h1>Bienvenido</h1> 
     <div class="botones">    
-    <a  href= "<?= site_url('Registro'); ?>">Registrarse</a>
+    <a class="btn btn-light" href= "<?= site_url('Registro'); ?>">Registrarse</a>
     
-   <a href= "<?= site_url('IniciarSesion'); ?>">Iniciar Sesion</a>
+   <a class="btn btn-light" href= "<?= site_url('IniciarSesion'); ?>">Iniciar Sesion</a>
     
 </div>
 </div>

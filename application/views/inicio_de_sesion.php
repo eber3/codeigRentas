@@ -19,13 +19,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   <center>
     
-  <h1>Iniciar Sesion</h1>
+  <h1>Iniciar Sesion</h1><br><br>
    <div class="inicio">
     <label for="correo">Correo:</label><br>
     <input class= "etiqueta" type="text"  id="correo" autofocus placeholder="Ingresa tu Correo">
 <br></br>
     <label for="password">Contraseña:</label>
-    <input type="password"  id="password" autofocus placeholder="Ingresa tu Contraseña"><br></br>
+    <input class="etiqueta" type="password"  id="password" autofocus placeholder="Ingresa tu Contraseña"><br></br>
     ¿No tienes una cuenta aun? <a href="<?= site_url('Registro'); ?>">Registrarse</a>
     <br></br>
     <button type="button" name="boton"  onclick="acceder()">Iniciar Sesion</button>
