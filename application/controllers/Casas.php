@@ -16,4 +16,6 @@ class Casas extends CI_Controller{
         $this->load->view("casas_views");
 
     }
+
+   
 }

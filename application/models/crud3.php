@@ -36,5 +36,11 @@ class Crud3 extends CI_Model{
       }//llave funcion readData
     
     
+
+      public function deleteRow($table, $id){
+        $this->db->where('id', $id);
+        return $this->db->delete($table);
+        }
+
     }
   

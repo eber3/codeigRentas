@@ -1,0 +1,47 @@
+.botones {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botones .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.botones .btn-light {
+    background-color: #f8f9fa;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.botones .btn-light:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #0056b3;
+}
+
+.botones .btn-light:focus, .botones .btn-light:active {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Opcional: Añadir un fondo suave a los botones */
+.botones .btn-light:active {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilo responsive para móviles */
+@media (max-width: 576px) {
+    .botones .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

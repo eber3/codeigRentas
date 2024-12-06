@@ -7,14 +7,19 @@
     
     <link rel="stylesheet" href="<?= base_url();?>public/css/menu.css">
     <link rel="stylesheet" href="<?= base_url();?>public/css/comprobante.css">
+    <link rel="stylesheet" href="<?= base_url();?>public/css/s.css">
     
 
 
 </head>
 <body>
+<header>
+<img src="<?= base_url();?>public/imagenes/casita.png" alt="Logo" class="logo">
+    </header>
+
 <nav class="menu-nav">
     <div class="nav">
-        <span class="logo"><img src="imagenes/logo2.jpg" height="50"></span>
+       
         <h1 class="titulo"></h1>
         <div class="menu">
             <span class="bar"></span>
@@ -50,7 +55,9 @@
         
         ¡Y eso es todo! Siguiendo estos simples pasos, estarás un paso más cerca de disfrutar de tu nuevo hogar. Si tienes alguna pregunta o necesitas ayuda adicional, no dudes en contactarnos (+52 466 115 9820)---celayaRentas@gmail.com. Estamos aquí para ayudarte en cada paso del camino.<br></br>
         
-        <span><img src="imagenes/comprobante.jpg.png" height="300"></span><br></br>
+        <img src="<?= base_url();?>public/imagenes/comprobante.jpg.png" height="300">
+<br>
+
         <a download="Comprobante" href="<?= base_url('public/files/Comprobante de Renta (1).pdf'); ?>"> Descargar Comprobante </a>
 
         

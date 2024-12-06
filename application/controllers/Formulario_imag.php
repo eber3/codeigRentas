@@ -72,6 +72,7 @@ public function tabla(){
     $this->load->view("casas_views");
 }
 
+
 public function getData(){
     $dataTosend = array();
 
@@ -80,6 +81,24 @@ public function getData(){
 
     echo json_encode($dataTosend, JSON_NUMERIC_CHECK);
 }
+
+
+public function deleteUser(){
+
+    $id = $this->input->post("id");
+
+    $id = $this->crud3->deleteRow("imag", $id);
+    $dataToSend['status'] = 'success';
+    $dataToSend['message'] = 'borrada exitosa';
+
+    
+    echo json_encode($dataToSend, JSON_NUMERIC_CHECK);
+}
+
+
+
+
+
 
 
 

@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <header class="header" >
 
   <div class="container">
-  <img src="<?= base_url('public/imagenes/registro.jpg.png'); ?>"  class="imagen-header">
+  <img src="<?= base_url('public/imagenes/registro.jpg.png'); ?>"  class="imagen-header" height="" margin=""  >
     
   <div class="formulario">
              <h1>Registrarse</h1>
