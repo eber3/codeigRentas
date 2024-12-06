@@ -61,12 +61,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <table class="table table-hover table-striped">
     <thead class="bg-dark text-white">
       <tr>
-        <th scope="col">id</th>
+        <th><strong>id</strong></th>
         <th scope="col">imagen</th>
         <th scope="col">ubicacion</th>
         <th scope="col">precio</th>
         <th scope="col">caracteristicas</th>
-        <th scope="col"><a href=""class="btn btn-danger">Eliminar</a></th> <!-- Aquí agregué una columna para el botón de eliminar -->
+        <a href=""class="btn btn-danger">Eliminar</a></th> <!-- Aquí agregué una columna para el botón de eliminar -->
+        <a href="#" class="btn btn-primary">Rentar</a> 
       </tr>
     </thead>
     <tbody id="cuerpoT">
